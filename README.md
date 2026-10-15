@@ -20,7 +20,7 @@ The project demonstrates how to send an HTTP request, parse HTML with Beautiful 
 | Company Name | Company associated with the listing |
 | Location | Location shown on the listing |
 | Date Posted | Posting date displayed on the page |
-| Apply Link | Link provided by the listing's Apply link |
+| Apply Link | Application link provided by the listing |
 
 ## Tech stack
 
@@ -36,15 +36,15 @@ The project demonstrates how to send an HTTP request, parse HTML with Beautiful 
 Python-FakeJob_scraper/
 ├── Job scraper.py
 ├── requirement.txt
-├── joboutputcsv
+├── joboutput.csv
 └── README.md
 ```
 
 - `Job scraper.py` — requests the page, extracts job data, and writes the CSV.
-- `requirement.txt` — lists the third-party Python dependencies.
-- `joboutputcsv` — existing output file included in the repository.
+- `requirement.txt` — dependency file included in the repository.
+- `joboutput.csv` — sample output containing the scraped job listings.
 
-> Note: The script currently writes its results to `job.7_18_2026.csv` in the current working directory. The output filename is hard-coded in the script.
+> Note: The script currently writes new results to `job.7_18_2026.csv` in the current working directory. That output filename is hard-coded in the script; `joboutput.csv` is the sample dataset committed to this repository.
 
 ## Getting started
 
@@ -123,4 +123,3 @@ This repository targets a public practice website built for learning web scrapin
 ## Author
 
 **Neeraj Kumar**
-
